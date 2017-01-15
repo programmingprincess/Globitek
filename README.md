@@ -7,12 +7,19 @@ Time spent: **5** hours spent in total
 The following **required** functionality is completed:
 
 [x] Create a users table in mySQL with appropriate columns
+
 [x] Create a page with an HTML form 
+
 [x] Detect when the form is submitted
+
 [x] Validate form data 
+
 [x] Display form errors if any validations fail
+
 [x] Submit successfully-validated form values to the DB
+
 [x] Redirect the user to a confirmation page
+
 [x] Sanitize all dynamic output for HTML
 
 ## Video Walkthrough
