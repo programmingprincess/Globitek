@@ -79,13 +79,13 @@
   <!-- TODO: HTML form goes here -->
   <form action = "<?php echo h($_SERVER["PHP_SELF"]);?>" method = "post" autocomplete = "off">
     <label name = "f_name"> First name: </label>
-    <input type = "text" name = "f_name" value = "<?php echo isset($_POST['f_name']) ? $_POST['f_name'] : ''?>"/> <br><br>
+    <input type = "text" name = "f_name" value = "<?php echo isset($_POST['f_name']) ? h($_POST['f_name']) : ''?>"/> <br><br>
     <label name = "f_name"> Last name: </label>
-    <input type = "text" name = "l_name" value = "<?php echo isset($_POST['l_name']) ? $_POST['l_name'] : ''?>"/> <br><br>
+    <input type = "text" name = "l_name" value = "<?php echo isset($_POST['l_name']) ? h($_POST['l_name']) : ''?>"/> <br><br>
     <label name = "f_name"> Email: </label>
-    <input type = "text" name = "email" value = "<?php echo isset($_POST['email']) ? $_POST['email'] : ''?>"/> <br><br>
+    <input type = "text" name = "email" value = "<?php echo isset($_POST['email']) ? h($_POST['email']) : ''?>"/> <br><br>
     <label name = "f_name"> Username: </label>
-    <input type = "text" name = "username" value = "<?php echo isset($_POST['username']) ? $_POST['username'] : ''?>"/> <br><br>
+    <input type = "text" name = "username" value = "<?php echo isset($_POST['username']) ? h($_POST['username']) : ''?>"/> <br><br>
 
     <input name = "submit" type = "submit" class = "button" />
 
