@@ -13,7 +13,6 @@ body {
 
 }
 
-
 h1 {
 	font-weight: 600;
 	color: #68D89B;
@@ -25,6 +24,19 @@ h1 {
 	color: #FF715B;
 	text-align: center;
 	font-size: 12px;
+}
+
+input[type=text] {
+	float: right;
+	padding: 5px;
+	width: 250px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+label {
+	margin: 5px auto;
+	float: left;
 }
 
 
@@ -96,5 +108,3 @@ input[type=submit]:hover {
     cursor: pointer;
     font-size: 16px;
 }
-
-
